@@ -565,7 +565,12 @@ body {
   margin-right: 8px;
 }
 
+.fanpage {
+  padding: 0;
+}
+
 .fanpage__header {
+  padding: 16px;
   border-bottom: 1px solid #D9D9D9;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -579,6 +584,88 @@ body {
 }
 
 .fanpage__state {
+  margin: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #8C8C8C;
+  padding-bottom: 23px;
   border-bottom: 1px solid #D9D9D9;
+}
+
+.fanpage__state_title {
+  color: #0050B3;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.fanpage__state_img {
+  margin-right: 12px;
+}
+
+.fanpage__state_message {
+  margin-bottom: 4px;
+}
+
+.fanpage__state_notification {
+  margin-bottom: 4px;
+}
+
+.fanpage__state_notification div {
+  padding: 5px;
+  display: inline-block;
+  background: #F5F5F5;
+  border: 1px solid #D9D9D9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.fanpage__btn {
+  margin: 16px;
+}
+
+.fanpage__btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fanpage__btn button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #D9D9D9;
+  background: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.fanpage__btn button:first-child {
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+
+.fanpage__btn button:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.fanpage__like {
+  padding: 16px;
+  text-align: center;
+}
+
+.fanpage__like_title {
+  font-size: 24px;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 1250px) {
+  .sidebar {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

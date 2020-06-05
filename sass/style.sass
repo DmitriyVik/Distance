@@ -329,16 +329,66 @@ body
     margin-right: 8px
 
 .fanpage
+  padding: 0
   &__header
+    padding: 16px
     border-bottom: 1px solid #D9D9D9
     display: flex
     justify-content: space-between
     align-items: center
   &__state
+    margin: 16px
+    display: flex
+    color: #8C8C8C
+    padding-bottom: 23px
     border-bottom: 1px solid #D9D9D9
-    
+    &_title
+      color: #0050B3
+      font-weight: 600
+      margin-bottom: 4px
+    &_img
+      margin-right: 12px
+    &_message
+      margin-bottom: 4px
+    &_notification
+      margin-bottom: 4px
+      & div
+        padding: 5px
+        display: inline-block
+        background: #F5F5F5
+        border: 1px solid #D9D9D9
+        box-sizing: border-box
+        border-radius: 4px
   &__btn
+    margin: 16px
+    &_wraper
+      display: flex
+    & button
+      width: 120px
+      height: 40px
+      border: 1px solid #D9D9D9
+      background: #fff
+      font-size: 16px
+      line-height: 24px
+      color: #595959
+      &:first-child
+        border-radius: 4px 0 0 4px
+        border-right: none
+      &:last-child
+        border-radius: 0 4px 4px 0
+        border-left: none
   &__like
+    padding: 16px
+    text-align: center
+    &_title
+      font-size: 24px
+      line-height: 32px
+      color: #262626
+      margin-bottom: 4px
+
+@media (max-width: 1250px)
+  .sidebar
+    display: none
 
 
 
