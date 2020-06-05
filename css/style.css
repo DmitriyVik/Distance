@@ -668,4 +668,25 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 95%;
+  }
+  .navigation__user {
+    display: none;
+  }
+  .navigation__panel {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .search {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
